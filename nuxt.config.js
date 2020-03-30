@@ -1,3 +1,13 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    linkActiveClass: 'is-active-link',
+    linkExactActiveClass: 'is-active',
+    base: '/ols-sample/'
+  }
+} : { linkActiveClass: 'is-active-link',
+  linkExactActiveClass: 'is-active',
+  base: ""
+}
 
 export default {
   mode: 'spa',
@@ -69,14 +79,10 @@ export default {
     extend (config, ctx) {
     }
   },
-  router: {
-    linkActiveClass: 'is-active-link',
-    linkExactActiveClass: 'is-active',
-    // base: '/page2',
-  },
   server: {
     port: 8000, // default: 3000
     host: 'localhost' // default: localhost
   },
-  trailingSlash: true
+  trailingSlash: true,
+  ...routerBase
 }
