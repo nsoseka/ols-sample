@@ -4,7 +4,7 @@
       <div class="column box container is-fullwidth p-t-xl p-l-xl p-r-xl is-white is-rounded hero">
         <nav class="pagination is-dark">
           <nuxt-link to="/" class=""></nuxt-link>
-          <nuxt-link to="page2" class="pagination-next has-text-info">Next page</nuxt-link>
+          <nuxt-link to="/page2" class="pagination-next has-text-info">Page 2</nuxt-link>
         </nav>
         <h1 class="title has-text-centered is-size-2 has-text-whit">By Association</h1>
         <h2 class="sub-title is-size-4 has-text-left m-t-md m-b-md has-text-link">How does an individual become part of a group? </h2>

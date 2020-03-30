@@ -250,3 +250,24 @@
 .column .mx-datepicker .mx-input {
   height: 40px;
 }
+.b-b-sm {
+  border-bottom: 1px solid #efefef;
+  margin-left: none;
+  margin-right: none;
+  padding-left: none;
+  padding-right: none;
+  list-style-type: none;
+  text-align: left;
+}
+.b-b-sm span {
+  padding: 0.5rem 0 0 1rem;
+  display: inline-block;
+}
+.r-b-l {
+  border-left: none !important;
+  padding: 0 !important;
+}
+.content .r-m-lt {
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}

@@ -1,7 +1,7 @@
 <template>
   <div class="column box ribbonHed p-t-xl p-b-xl p-l-xl p-r-xl is-white is-rounded hero">
     <nav class="pagination is-dark">
-      <nuxt-link to="page2" class="pagination-previous has-text-info">Previous</nuxt-link>
+      <nuxt-link to="/page2" class="pagination-previous has-text-info">Page2</nuxt-link>
     </nav>
     <h1 class="title has-text-centered has-text-whit is-size-2">Words to Know</h1>
     <h2 class="sub-title is-size-4 m-t-md m-b-md  has-text-info">What words should you know to appreciate the rest of Part I of the novel?</h2>
@@ -11,7 +11,7 @@
     <p class="m-b-lg">Throughout the rest of Part I of <span class="is-italic has-text-info has-text-weight-bold">Julie of the Wolves</span>, the protagonist continues her quest to stay alive in spite of the harshness of the elements, a shortage of food, and her loneliness. Some of the words below may be unfamiliar to you, and yet they will be helpful in understanding Miyax's difficult situation even after winning Amaroq's trust. 
     </p>
     
-    <table class="table box is-hoverabl is-fullwidth">
+    <table class="table is-bordered box is-fullwidth">
       <thead>
         <tr>
         </tr>
@@ -28,17 +28,33 @@
             </aside>
           </td>
 
-          <td class="column has-text-rigt">
-            <div class="bo content">
-              <ul>
-                <li class="m-b-md has-text-weight-bold">Forage</li>
-                <li class="m-b-md has-text-weight-bold">Improvisation</li>
-                <li class="m-b-md has-text-weight-bold">Undulate</li>
-                <li class="m-b-md has-text-weight-bold">Eerie</li>
-                <li class="m-b-md has-text-weight-bold">Writhed</li>
-                <li class="m-b-md has-text-weight-bold">Tribute</li>
-                <li class="m-b-md has-text-weight-bold">Menacingly</li>
-                <li class="m-b-md has-text-weight-bold">Morsel</li>
+          <td class="column r-b-l has-text-rigth">
+            <div class="content">
+              <ul class="r-m-lt">
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Forage</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Improvisation</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Undulate</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Eerie</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Writhed</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Tribute</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Menacingly</span>
+                </li>
+                <li class="p-b-md has-text-weight-bold b-b-sm has-text-left">
+                  <span>Morsel</span>
+                </li>
               </ul>
             </div> 
           </td>

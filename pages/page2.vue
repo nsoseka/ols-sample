@@ -1,8 +1,8 @@
 <template>
   <div class="column box ribbnHead p-t-xl p-l-xl p-b-xl p-r-xl is-white is-rounded hero">
     <nav class="pagination is-dark">
-      <nuxt-link to="/" class="pagination-previous has-text-info">Previous</nuxt-link>
-      <nuxt-link to="page3" class="pagination-next has-text-info">Next page</nuxt-link>
+      <nuxt-link to="/" class="pagination-previous has-text-info">Page 1</nuxt-link>
+      <nuxt-link to="/page3" class="pagination-next has-text-info">Page 3</nuxt-link>
     </nav>
     <h1 class="title has-text-centered has-text-whit is-size-2">Practice</h1>
     <h2 class="sub-title is-size-4 m-t-md m-b-md has-text-info">Respect or disrespect?</h2>
