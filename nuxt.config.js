@@ -4,9 +4,11 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
     linkExactActiveClass: 'is-active',
     base: '/ols-sample/'
   }
-} : { linkActiveClass: 'is-active-link',
+} : { router: {
+  linkActiveClass: 'is-active-link',
   linkExactActiveClass: 'is-active',
   base: ""
+  }
 }
 
 export default {
