@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="navbar-end">
+        <div v-if="false" class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
             <div class="navbar-link">
               Student Name #John Doe
