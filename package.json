@@ -22,7 +22,7 @@
     "nuxt": "^2.0.0",
     "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2",
-    "swiper": "^5.3.6",
+    "swiper": "^6.5.1",
     "vue-awesome-swiper": "^4.1.0",
     "vue-confetti": "^2.0.8",
     "vue-sweetalert2": "^3.0.3"
